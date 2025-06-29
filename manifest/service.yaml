@@ -4,6 +4,7 @@ metadata:
   name: svc-wil42
   namespace: dev
 spec:
+  type: NodePort
   selector:
     app: wil42
   ports:

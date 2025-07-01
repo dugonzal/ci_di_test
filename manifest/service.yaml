@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: svc-wil42
   namespace: dev
+  labels:
+    app: wil42
 spec:
   type: NodePort
   selector:
